@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 /*===== GENERAL STYLING =====*/
 body {
     margin: 0%;

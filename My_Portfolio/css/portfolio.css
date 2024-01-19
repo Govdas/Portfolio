@@ -152,7 +152,15 @@ img:hover {
 /*===== VIDEO STYLING End =====*/
 
 /*===== ABOUT, GitHub STYLING =====*/
-.container_2 {
+.right_border {
+    border-right: 1px solid rgb(202, 193, 193);
+}
+
+.row_2 {
+    display: flex;
+  }
+
+.column_3 {
     width: 50%;
     float: left;
     padding: 20px;
@@ -163,7 +171,21 @@ img:hover {
     line-height: 2.5em;
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-weight: 900;
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid;
+    border-right: 1px solid rgb(202, 193, 193);
+}
+
+.column_4 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin: 0px auto;
+    background-color: rgb(231, 229, 210);
+    text-align: center;
+    word-spacing: 2pt;
+    line-height: 2.5em;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+    font-weight: 900;
     border-bottom: 1px solid;
 }
 
@@ -179,7 +201,7 @@ img:hover {
     border-bottom: 1px solid;
 }
 
-.container h1::after, .container_2 h1::after { /* This is the underline */
+.container h1::after, .row_2 h1::after { /* This is the underline */
     display: block;
     content: " ";
     height: 2px;
